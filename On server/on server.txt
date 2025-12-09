@@ -1,0 +1,3 @@
+C:\Users\Dell>cd C:\Users\Dell\Desktop\cs-album
+
+C:\Users\Dell\Desktop\cs-album>python -m http.server 8000

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Online Album 2025</title>
+    <link rel="stylesheet" href="home-style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CS ONLINE ALBUM 2025</h1>
+            <p class="subtitle">Celebrating Our Graduates' Journey</p>
+        </header>
+        
+        <main>
+            <div class="buttons-container">
+                <div class="button-group">
+                    <h2>Graduates</h2>
+                    <button class="album-btn software-btn" onclick="navigateTo('software.html')">
+                        <span class="btn-title">Software Graduates</span>
+                        <span class="btn-subtitle">Class of 2025 - Software Engineering</span>
+                    </button>
+                    <button class="album-btn networking-btn">
+                        <span class="btn-title">Networking Graduates</span>
+                        <span class="btn-subtitle">Class of 2025 - Networking</span>
+                    </button>
+                </div>
+                
+                <div class="button-group">
+                    <h2>Faculty</h2>
+                    <button class="album-btn faculty-btn">
+                        <span class="btn-title">Meet Our Faculty</span>
+                        <span class="btn-subtitle">Department Lecturers</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Developed by HAL Brain</p>
+        </footer>
+    </div>
+</body>
+</html>

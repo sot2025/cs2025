@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - CS Online Album 2025</title>
+  <link rel="stylesheet" href="home-style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>CS ONLINE ALBUM 2025</h1>
+      <p class="subtitle">Celebrating Our Graduates' Journey</p>
+    </header>
+
+    <main>
+      <div class="buttons-container">
+        <!-- Software Graduates -->
+        <button class="grad-button" onclick="navigateTo('software.html')">
+          <div class="button-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="button-text">
+            <h3>Software Graduates</h3>
+            <p>Class of 2025 - Software Engineering</p>
+          </div>
+        </button>
+
+        <!-- Networking Graduates -->
+        <button class="grad-button" onclick="navigateTo('networking.html')">
+          <div class="button-icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <div class="button-text">
+            <h3>Networking Graduates</h3>
+            <p>Class of 2025 - Networking</p>
+          </div>
+        </button>
+
+        <!-- Lectures -->
+        <button class="grad-button" onclick="navigateTo('lectures.html')">
+          <div class="button-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <div class="button-text">
+            <h3>Lectures</h3>
+            <p>Meet our faculty members</p>
+          </div>
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <p>Developed by HAL Brain</p>
+    </footer>
+  </div>
+
+  <script>
+    function navigateTo(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>

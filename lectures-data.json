@@ -1,0 +1,130 @@
+{
+  "lecturers": [
+    {
+      "id": "lecturer_001",
+      "name": "Dr Abubakar Umar Farouk",
+      "avatar": "images/lecturers/lecturer_001.jpg",
+      "fullName": "Dr Abubakar Umar Farouk",
+      "title": "Rector Kano State Polytechnic"
+    },
+    {
+      "id": "lecturer_001",
+      "name": "Dr. Muhammad Umar Kibiya",
+      "avatar": "images/lecturers/lecturer_001.jpg",
+      "fullName": "Dr. Muhammad Umar Kibiya",
+      "title": "Deputy Rector Kano State Polytechnic"
+    },
+    {
+      "id": "lecturer_002",
+      "name": "Dr Ibrahim Usman Aikawa",
+      "avatar": "images/lecturers/lecturer_002.jpg",
+      "fullName": "Dr Ibrahim Usman Aikawa",
+      "title": "Director Academic Planning"
+    },
+    {
+      "id": "lecturer_003",
+      "name": "Mukthar Ibrahim Bello",
+      "avatar": "images/lecturers/lecturer_003.jpg",
+      "fullName": "Mukthar Ibrahim Bello",
+      "title": "Registrar"
+    },
+    {
+      "id": "lecturer_004",
+      "name": "Dr. Aminu Sabo",
+      "avatar": "images/lecturers/lecturer_004.jpg",
+      "fullName": "Dr. Aminu Sabo",
+      "title": "School Director"
+    },
+    {
+      "id": "lecturer_005",
+      "name": "Abubakar Bello",
+      "avatar": "images/lecturers/lecturer_005.jpg",
+      "fullName": "Abubakar Bello",
+      "title": "Students Affairs"
+    },
+    {
+      "id": "lecturer_006",
+      "name": "Dr. Hassan Bello",
+      "avatar": "images/lecturers/lecturer_006.jpg",
+      "fullName": "Dr. Hassan Bello",
+      "title": "HOD Computer Science"
+    },
+    {
+      "id": "lecturer_007",
+      "name": "Mal. Sani Ibrahim",
+      "avatar": "images/lecturers/lecturer_007.jpg",
+      "fullName": "Mal. Sani Ibrahim",
+      "title": "Examination Officer"
+    },
+    {
+      "id": "lecturer_008",
+      "name": "Umar Alhassan Umar",
+      "avatar": "images/lecturers/lecturer_008.jpg",
+      "fullName": "Umar Alhassan Umar",
+      "title": "Project Supervisor"
+    },
+    {
+      "id": "lecturer_009",
+      "name": "Mal. Ismail Ahmad",
+      "avatar": "images/lecturers/lecturer_010.jpg",
+      "fullName": "Mal. Ismail Ahmad",
+      "title": "Lecturer"
+    },
+    {
+      "id": "lecturer_010",
+      "name": "Mal. Sadiq",
+      "avatar": "images/lecturers/lecturer_011.jpg",
+      "fullName": "Mal. Sadiq",
+      "title": "Lecturer"
+    },
+    {
+      "id": "lecturer_011",
+      "name": "Mal. Abdullahi Ya'u Gambo",
+      "avatar": "images/lecturers/lecturer_012.jpg",
+      "fullName": "Mal. Abdullahi Ya'u Gambo",
+      "title": "Lecturer"
+    },
+    {
+      "id": "lecturer_012",
+      "name": "Mal. Abdulhamid Shariff",
+      "avatar": "images/lecturers/lecturer_013.jpg",
+      "fullName": "Mal. Abdulhamid Shariff",
+      "title": "Lecturer"
+    },
+    {
+      "id": "lecturer_013",
+      "name": "Mal. Habib Shariff",
+      "avatar": "images/lecturers/lecturer_014.jpg",
+      "fullName": "Mal. Habib Shariff",
+      "title": "Lecturer"
+    },
+    {
+      "id": "lecturer_014",
+      "name": "Malama Hasiya ",
+      "avatar": "images/lecturers/lecturer_015.jpg",
+      "fullName": "Malama Hasiya ",
+      "title": "Students Affairs"
+    },
+    {
+      "id": "lecturer_015",
+      "name": "Malama Jamila",
+      "avatar": "images/lecturers/lecturer_016.jpg",
+      "fullName": "Malama Jamila",
+      "title": "Lecturer"
+    },
+    {
+      "id": "lecturer_016",
+      "name": "Mal. Bello Imam",
+      "avatar": "images/lecturers/lecturer_017.jpg",
+      "fullName": "Mal. Bello Imam",
+      "title": "Lecturer"
+    },
+    {
+      "id": "lecturer_017",
+      "name": "Malama Amina",
+      "avatar": "images/lecturers/lecturer_018.jpg",
+      "fullName": "Malama Amina",
+      "title": "Lecturer"
+    }
+  ]
+}
