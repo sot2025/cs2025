@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(-5px);
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  margin: 3rem 0;
+  color: white;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid white;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Student Profile */
+.student-profile {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #2d3748;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #e2e8f0;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.avatar-initial {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  border: 8px solid #e2e8f0;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.student-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.student-nickname {
+  font-size: 1.2rem;
+  color: #667eea;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* Profile Details */
+.profile-details {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.detail-group {
+  padding: 1rem;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.detail-group h3 {
+  color: #667eea;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.detail-group h3 i {
+  font-size: 1.2rem;
+}
+
+.detail-group p {
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+/* Contact Info */
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Error */
+.error-message {
+  color: #fc8181;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(252, 129, 129, 0.1);
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.error-message i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .student-profile {
+    padding: 1.5rem;
+  }
+  
+  .profile-avatar,
+  .avatar-initial {
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+  }
+  
+  .student-name {
+    font-size: 1.8rem;
+  }
+  
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .student-profile {
+    padding: 1rem;
+  }
+  
+  .profile-avatar,
+  .avatar-initial {
+    width: 120px;
+    height: 120px;
+    font-size: 3rem;
+  }
+  
+  .student-name {
+    font-size: 1.5rem;
+  }
+  
+  body {
+    padding: 15px;
+  }
+}

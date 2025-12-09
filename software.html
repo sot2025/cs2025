@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Graduates - CS Online Album 2025</title>
+  <link rel="stylesheet" href="software-style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Software & Web Development Graduates</h1>
+      <p class="subtitle">Class of 2025</p>
+      <a href="home.html" class="back-button">
+        <i class="fas fa-arrow-left"></i> Back to Home
+      </a>
+    </header>
+
+    <main>
+      <!-- Search Bar -->
+      <div class="search-container">
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="searchInput" placeholder="Search students by name..." />
+          <button id="clearSearch" class="clear-btn">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="search-stats">
+          <span id="searchResults">Showing all students</span>
+        </div>
+      </div>
+
+      <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <p>Loading students...</p>
+      </div>
+
+      <div class="students-grid" id="studentsContainer">
+        <!-- Students will be loaded here -->
+      </div>
+
+      <div class="no-results" id="noResults" style="display: none;">
+        <i class="fas fa-search"></i>
+        <h3>No students found</h3>
+        <p>Try adjusting your search terms</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>Developed by HAL Brain</p>
+    </footer>
+  </div>
+
+  <script src="software-script.js"></script>
+</body>
+</html>
