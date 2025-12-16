@@ -8,9 +8,9 @@
       "title": "Rector Kano State Polytechnic"
     },
     {
-      "id": "lecturer_001",
+      "id": "lecturer_002",
       "name": "Dr. Muhammad Umar Kibiya",
-      "avatar": "images/lecturers/lecturer_001.jpg",
+      "avatar": "images/lecturers/lecturer_002.jpg",
       "fullName": "Dr. Muhammad Umar Kibiya",
       "title": "Deputy Rector Kano State Polytechnic"
     },
@@ -127,4 +127,5 @@
       "title": "Lecturer"
     }
   ]
+
 }
